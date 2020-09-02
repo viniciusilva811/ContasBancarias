@@ -35,6 +35,7 @@ namespace Course
             Console.Write("Entre um valor para depósito: ");
             double quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             conta.Deposito(quantia);
+           
             Console.WriteLine("Dados da conta atualizados:");
             Console.WriteLine(conta);
 
@@ -42,6 +43,7 @@ namespace Course
             Console.Write("Entre um valor para saque: ");
             quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             conta.Saque(quantia);
+           
             Console.WriteLine("Dados da conta atualizados:");
             Console.WriteLine(conta);
         }
